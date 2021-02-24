@@ -15,4 +15,5 @@ let message = ["let go of the past",
                "embrace silence",
                "learn that hobby you always wanted to",
                "have courage in all things",
-               "be the hero you always looked up to"];
+               "be the hero you always looked up to",
+               "take a chance on love"];

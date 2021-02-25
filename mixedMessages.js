@@ -1,4 +1,4 @@
-let subejct = "You";
+let subject = "You";
 let verb = ["can", "should", "want to"];
 let message = ["let go of the past",
                "forgive your enemies",
@@ -21,5 +21,15 @@ let message = ["let go of the past",
 
 function randomPicker(array) {
     let randomIndex = Math.floor(Math.random() * array.length);
+    
     return array[randomIndex];
 }
+
+function messageBuilder(subject, verbArray, messageArray) {
+    let verb = randomPicker(verbArray);
+    let message = randomPicker(messageArray);
+
+    return `${subject} ${verb} ${message}`;
+}
+
+console.log(messageBuilder(subject, verb, message));

@@ -18,3 +18,8 @@ let message = ["let go of the past",
                "have courage in all things",
                "be the hero you always looked up to",
                "take a chance on love"];
+
+function randomPicker(array) {
+    let randomIndex = Math.floor(Math.random() * array.length);
+    return array[randomIndex];
+}
